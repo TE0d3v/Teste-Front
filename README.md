@@ -1,5 +1,7 @@
 # Projeto: OPOVO
 
+infelizmente ainda não tenho os conhecimentos necessários para adicionar responsividade ao meu código mas espero que a minha entrega seja agradável.
+
 Este projeto é uma interface de exibição de informações sobre filmes e séries. Ele inclui funcionalidades como exibição de sinopses, detalhes de produção, elenco, resenhas e muito mais.
 
 ## Funcionalidades
