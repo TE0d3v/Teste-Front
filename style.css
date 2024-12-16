@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: League Spartan, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 1920px;
+    height: 2147px;
+}
+
+.container header {
+    width: 100%;
+    height: 100px;
+    background: #3F2305 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.container header .interface {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container header .interface .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    width: 192px;
+    padding-top: 30px;
+}
+
+.container header .interface .itens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 60px;
+    width: 192px;
+    padding-top: 30px;
+    font-size: 24px;
+    color: #F2EAD3;
+}
+
+.container .filme {
+    background-color: #F2EAD3;
+    width: 1920px;
+    height: 800px;
+    display: flex;
+
+
+}
+
+.container .filme .esquerda {
+    width: 37%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #F2EAD3;
+}
+
+.container .filme .direita {
+    width: 63%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: left;
+    background-color: #F2EAD3;
+    font-size: 24px;
+    gap: 30px;
+
+}
+
+.coluna {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.coluna-esquerda,
+.coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container .filme .direita .titulo {
+    font-size: 48px;
+    display: flex;
+}
+
+#Barbie {
+    color: #3F2305;
+}
+
+#ano {
+    color: #A4907C;
+}
+
+#B {
+    color: #3F2305;
+    font-weight: bold;
+}
+
+.container .elenco {
+    width: 1920px;
+    height: 394px;
+    background-color: #DFD7BF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .elenco .info {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    font-size: 36px;
+    color: #3F2305;
+    gap: 5px;
+    font-weight: bold;
+}
+
+.container .elenco .info button {
+    width: 130px;
+    background-color: #3F2305;
+    color: #F2EAD3;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+}
+
+.container .elenco .owl-carousel {
+    width: 70%;
+    height: 291px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .elenco .owl-carousel .item {
+    text-align: center;
+}
+
+.container .elenco .owl-carousel .item img {
+    margin: 0 auto;
+    display: block;
+
+}
+
+.container .elenco .owl-carousel .item h1 {
+    margin-top: 10px;
+    display: block;
+}
+
+.container .elenco .owl-carousel .item p {
+    margin-top: 5px;
+    display: block;
+    font-size: 24px;
+}
+
+.container .resenhas {
+    width: 1920px;
+    height: 588px;
+    background-color: #F2EAD3;
+    gap: 10px;
+    display: flex;
+}
+
+.container .resenhas .esquerda {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin-right: 20px;
+}
+
+.container .resenhas .esquerda .info {
+    display: flex;
+    font-weight: bold;
+    width: 70%;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #3F2305;
+    gap: 5px;
+}
+
+.container .resenhas .esquerda .info button {
+    width: 130px;
+    background-color: #3F2305;
+    color: #F2EAD3;
+    border-radius: 30px;
+    border: none;
+    font-size: 24px;
+}
+
+.container .resenhas .esquerda .cartao-es {
+    width: 70%;
+    height: 70%;
+    background-color: #DFD7BF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.container .resenhas .esquerda .cartao-es .texto-es {
+    padding: 0 20px 20px 20px;
+    font-size: 24px;
+    color: #3F2305;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .resenhas .esquerda .cartao-es .escrito-es {
+    padding: 20px;
+    font-size: 24px;
+    color: #3F2305;
+    display: flex;
+    gap: 5px;
+}
+
+#escrito-es {
+    font-weight: bold;
+    color: #3F2305;
+}
+
+.container .resenhas .esquerda .cartao-es .data-nota-es {
+    padding: 20px;
+    font-size: 24px;
+    color: #3F2305;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#nota-es {
+    font-weight: bold;
+    color: #3F2305;
+}
+
+.container .resenhas .direita {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .resenhas .direita .cartao-di {
+    width: 70%;
+    height: 70%;
+    background-color: #DFD7BF;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.container .resenhas .direita .cartao-di .texto-di {
+    padding: 20px;
+    font-size: 24px;
+    color: #3F2305;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container .resenhas .direita .cartao-di .escrito-di {
+    padding: 20px;
+    font-size: 24px;
+    color: #3F2305;
+    display: flex;
+    gap: 5px;
+}
+
+#escrito-di {
+    font-weight: bold;
+    color: #3F2305;
+}
+
+.container .resenhas .direita .cartao-di .data-nota-di {
+    padding: 20px;
+    font-size: 24px;
+    color: #3F2305;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#nota-di {
+    font-weight: bold;
+    color: #3F2305;
+}
+
+footer {
+    width: 1920px;
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #3F2305;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+.rodape .logo {
+    width: 80%;
+    display: flex;
+    justify-content: left;
+    margin-left: 320px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 700px;
+    width: 50%;
+    color: white;
+    font-size: 24px;
+
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-right: 20px;
+}
+
+.links li {
+    margin-bottom: 30px;
+}
