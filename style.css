@@ -356,3 +356,14 @@ footer {
 .links li {
     margin-bottom: 30px;
 }
+@media (max-width: 1200px) and (min-width: 768px) {
+   
+}
+
+@media (max-width: 768px) {
+  
+}
+
+@media (max-width: 480px) {
+   
+}
